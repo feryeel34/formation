@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /******************* Header CSS *******************/
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 9.5vh;
+    align-items: center;
+    padding: 0vh 17vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 100%, 0.98);
+    box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.15);
+  }
+  .header-logo img {
+    width: 17vw;
+  }
+  .navbar {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+  }
+  .about-us,.career,.departments {
+    padding: 0vh 1vw;
+  }
+  .about-us a,.career a,.departments a {
+    text-decoration: none;
+    font-size: 90%;
+  }
+  .about-us a {
+    color: #00b39b;
+  }
+  .career a,.departments a {
+    color: #ababab;
+  }
+  .career a:hover {
+    color: #00b39b;
+  }
+  .departments a:hover {
+    color: #00b39b;
+  }
+  .drop-down-menu {
+    display: none;
+  }
+  .drop-down-menu p {
+    color: #ababab;
+    padding: 1.5vh 1vw;
+    font-size: 15px;
+  }
+  .departments:hover .drop-down-menu {
+    padding-top: 1vh;
+    position: absolute;
+    background-color: white;
+    width: 16vw;
+    height: fit-content;
+    border: none;
+    display: block;
+    right: -1.5vw;
+    box-shadow: 0vw 0.7vh 0.5vw #e2e2e2;
+  }
+  .drop-down-menu p:hover {
+    background-color: #f5f4f4;
+    color: #00b39b;
+  }
